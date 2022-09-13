@@ -1,0 +1,10 @@
+[build]
+  command = "yarn build"
+  publish = "dist"
+
+[functions]
+  directory = "functions"
+
+[dev]
+  command = "yarn start"
+  autoLaunch = true

@@ -1,0 +1,38 @@
+{
+  "name": "apollo-client",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "netlify dev",
+    "start": "vite --port 3000",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@apollo/client": "^3.6.9",
+    "@netlify/functions": "^1.2.0",
+    "apollo-server": "^3.10.2",
+    "apollo-server-core": "^3.10.2",
+    "apollo-server-lambda": "^3.10.2",
+    "class-validator": "^0.13.2",
+    "concurrently": "^7.4.0",
+    "graphql": "15",
+    "highlight.js": "^11.6.0",
+    "netlify-cli": "^11.7.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "reflect-metadata": "^0.1.13",
+    "tsup": "^6.2.3",
+    "type-graphql": "^1.1.1",
+    "uuid": "^9.0.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.17",
+    "@types/react-dom": "^18.0.6",
+    "@types/uuid": "^8.3.4",
+    "@vitejs/plugin-react": "^2.1.0",
+    "typescript": "^4.6.4",
+    "vite": "^3.1.0"
+  }
+}
